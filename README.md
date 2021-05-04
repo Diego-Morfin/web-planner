@@ -1,4 +1,3 @@
-![website](https://user-images.githubusercontent.com/54593885/117068768-efc53100-ace8-11eb-8fe7-302ccdc80d3f.png)
 # web-planner
 
 ### Description
