@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Planner</title>
+		<link rel="stylesheet" href="style.css" >
+	</head>
+	<body>
+		<h1 id="mainTitle">Create A Plan</h1>
+
+		<button id="loginbutton" class="open-button" onclick="openForm()">Login</button>
+		<div class="form-popup" id="loginForm">
+			<form class="form-container" onsubmit="return false">
+				<h1>Login</h1>
+
+				<input type="text" id="loginUsername" placeholder="Enter Email" required>
+
+				<input type="password" id="loginPassword" placeholder="Enter Password" required>
+
+				<button class="Login-Button">Login</button>
+				<button class="Login-Button cancel" onclick="closeForm()">Close</button>
+			</form>
+		</div>
+
+
+		<button class="open-button-two" onclick="openFormNew()">NewAccount</button>
+		<div class="form-popup-two" id="newForm">
+			<form class="form-container-two" onsubmit="return false">
+				<h1>New Account</h1>
+
+				<input type="text" id="userFirstName" placeholder="Enter First Name" required>
+				<input type="text" id="userLastName" placeholder="Enter Last Name" required>
+				<input type="text" id="userUsername" placeholder="Enter Email" required>
+				<input type="password" id="userPassword" placeholder="Enter Password" required>
+
+				<button class="New-Account-Button" onclick="closeFormNew()">New Account</button>
+				<button class="New-Account-Button cancel" onclick="closeFormNew()">Close</button>
+			</form>
+		</div>
+
+
+		<button class="add-button"> Add A Plan </button>
+
+		<button id="update-button" class="update-button"> Update </button>
+
+		<input type="text" class="textFields" id="new-plan-name" placeholder="Plan..." value="">
+		<input type="text" class="textFields" id="new-plan-description" placeholder="description..." value="">
+		<input type="text" class="textFields" id="new-plan-date" placeholder="Date..." value="">
+		<input type="text" class="textFields" id="new-plan-rating" placeholder="rating..." value="">
+
+		<ol id="dataList"></ol>
+
+		<script type="text/javascript" src="app.js"> </script>
+
+		<footer>
+		  <p class="footerRight">Posted by: Diego Morfin</p>
+		  <p class="footerRigth">Contact information: <a href="mailto:dmorfin09@gmail.com">dmorfin09@gmail.com</a></p>
+
+		   <p class="footerLeft">Assignment 4: Authentication</p>
+		</footer>
+	</body>
+</html

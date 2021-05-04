@@ -1,0 +1,288 @@
+#mainTitle {
+	margin-left: 10.8em;
+	font-family: Impact;
+  font-size: 50px;
+}
+.update-button {
+  margin-right: 1em;
+  margin-bottom: .7em;
+  margin-top: .1em;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  background-color: #C42323;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  position: relative;
+}
+
+.update-button:hover {background-color: #9E2D2D}
+
+.update-button:active {
+  background-color: #7C2525;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.add-button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #C42323;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 22.5em;
+  position: relative;
+}
+
+.add-button:hover {background-color: #9E2D2D}
+
+.add-button:active {
+  background-color: #7C2525;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+button {
+  margin-right: 1em;
+  margin-bottom: .7em;
+  margin-top: .1em;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  background-color: #C42323;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  position: relative;
+}
+
+button:hover {
+  background-color: #9E2D2D
+}
+
+add-button:active {
+  background-color: #7C2525;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#title {
+	margin-left: 18.5em;
+	margin-top: 1.5em;
+	position: absolute;
+}
+
+
+#new-plan {
+	padding: 15px 30px;
+	margin: 12px 0;
+	box-sizing: border-box;
+	border: 3px solid red;
+	border-radius: 4px;
+	margin-left: 50em;
+	margin-top: 18.5em;
+	position: fixed;
+}
+
+.textFields {
+  display: block;
+  margin-bottom: 1em;
+  margin-left: 43em;
+  border: solid red;
+  border-width: 4px;
+}
+
+.textFields:focus {
+  background-color: #bac0c2;
+}
+.footerRight{
+  column-count: 1;
+}
+.footerLeft {
+  column-count: 2;
+  column-gap: 40px;
+}
+
+ol {
+  display: block;
+  list-style-type: decimal;
+  width: 30em;
+  margin-top: 1em;
+  margin-left: 18.5em;
+  font-size: 20px;
+  line-height: 200%;
+  border-style: double;
+  background-color: #CAEEFF;
+}
+
+div {
+  width: 25em;
+  border-style: double;
+  border-width: 3px;
+  background-color: #D8F5FF;
+}
+
+
+body {
+	height: 0px;
+	background-color: lightblue;
+	background-image: linear-gradient(lightblue, lightblue);
+}
+
+footer {
+  background-color: #D8F5FF;
+}
+
+
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  top: 23px;
+  right: 28px;
+  width: 120px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .Login-Button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .Login-Button:hover, .open-button:hover {
+  opacity: 1;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button-two {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  top: 23px;
+  left: 23px;
+  width: 150px;
+}
+
+/* The popup form - hidden by default */
+.form-popup-two {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container-two {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container-two input[type=text], .form-container-two input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container-two input[type=text]:focus, .form-container-two input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container-two .New-Account-Button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container-two .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container-two .New-Account-Button:hover, .open-button-two:hover {
+  opacity: 1;
+}
