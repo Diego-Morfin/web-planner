@@ -1,4 +1,10 @@
-# ASSIGNMENT 4: Authentication
+# web-planner
+
+### Description
+a very basic web site that covers most requirements that is expected on a normal site.
+It contains basic authorization on top of the login and logout. The site also uses cookies and data encryption.
+The website also uses a database to encrypt and store all the data safely.
+
 
 ## Resource
 
